@@ -1,6 +1,6 @@
-#Instalacion para uso
+# Instalacion para uso
 
-##windows
+## windows
 Accede a la página oficial de Graphviz (https://graphviz.org/download/) y selecciona la versión compatible con tu sistema operativo (Windows). Descarga el archivo de instalación.
 
 **Ejecución:** 
@@ -19,7 +19,7 @@ Acepta los cambios y reinicia tu equipo.
 **Verificación:** 
 Abre una terminal (cmd) y escribe el comando "dot -V". Deberías obtener información sobre la versión de Graphviz instalada.
 
-##Linux
+## Linux
 **Actualización de paquetes:
 ** 
 Abre una terminal y ejecuta el comando "sudo apt-get update" para actualizar la lista de paquetes disponibles.
@@ -30,13 +30,13 @@ Ejecuta el comando "sudo apt-get install graphviz" para instalar Graphviz y sus 
 **Verificación:**
 Escribe el comando "dot -V" en la terminal para verificar la instalación. Deberías obtener información sobre la versión de Graphviz instalada.
 
-#Correr programa
+# Correr programa
 Usa el comando 
 ```cmd
 py linkedList.py
 ```
 
-##participantes
+## participantes
 |  Nombre | Carnet | Participacion  |
 | :------------: | :------------: | :------------: |
 | Cristian Sebastian Rodas | 9490-22-523| 100%   |
@@ -45,7 +45,7 @@ py linkedList.py
 | Abner Salvador Cancinos | 9490-22-2101 |  100%  |
 
 
-###Clase Nodo
+### Clase Nodo
 Encapsula los datos y la estructura de un nodo para una lista enlazada.
 
 **Descripción:
@@ -77,7 +77,7 @@ print(nodo1.datos)  # Imprime "Juan Pérez"
 print(nodo2.anterior.datos)  # Imprime "Juan Pérez"
 ```
 
-###Clase Lista
+### Clase Lista
 
 **Descripción:**
 
