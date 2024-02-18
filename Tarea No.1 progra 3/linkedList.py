@@ -1,8 +1,7 @@
-from graphviz import Digraph   # Utilizaremos esto para poder tbajar con graphviz 
-
+from graphviz import Digraph
 
 class Nodo(object):     #Clase que hereda de objeto 
-    def _init_(self, datos = None, Nombre = None, apellido = None, siguiente =None, anterior = None):  # Estos son los componentes que contiene un nodo 
+    def __init__(self, datos = None, Nombre = None, apellido = None, siguiente =None, anterior = None):  # Estos son los componentes que contiene un nodo 
         self.datos = datos
         self.Nombre = Nombre
         self.apellido= apellido
@@ -10,7 +9,7 @@ class Nodo(object):     #Clase que hereda de objeto
         self.anterior=anterior
 
 class Lista (object):   #Estos componentes definene a las listas para el inicio y el anterior
-    def _init_(self):
+    def __init__(self):
         self.cabeza = None
         self.cola = None
     
@@ -115,5 +114,5 @@ def Menu():
         else:
             print("Opción no válida. Por favor, elige una opción del 1 al 5.")
 
-if _name_ == "_main_": #esto es para que el script de python el menu sea el principal 
-    Menu()
+#if __name__ == "_main_": #esto es para que el script de python el menu sea el principal 
+Menu()
