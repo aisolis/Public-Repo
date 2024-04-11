@@ -1,7 +1,8 @@
+from pokemon import Pokemon
+
 class AVLNode:
-    def __init__(self, key, data):
-        self.key = key
-        self.data = data
+    def __init__(self, pokemon):
+        self.pokemon = pokemon
+        self.height = 1
         self.left = None
         self.right = None
-        self.height = 1
